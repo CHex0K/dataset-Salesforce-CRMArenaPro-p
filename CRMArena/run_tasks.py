@@ -169,14 +169,12 @@ def run():
 if __name__ == "__main__":
     load_dotenv()
     parser = argparse.ArgumentParser()
-    MODEL_CHOICES = sorted(set(list(OPENROUTER_MODELS_MAP.keys()) or ["google/gemini-2.5-flash-lite"]))
 
     parser.add_argument(
         "--model",
         type=str,
         help="The model to use for the agent",
         default="google/gemini-2.5-flash-lite",
-        choices=MODEL_CHOICES,
     )
     parser.add_argument(
         "--agent_strategy",
