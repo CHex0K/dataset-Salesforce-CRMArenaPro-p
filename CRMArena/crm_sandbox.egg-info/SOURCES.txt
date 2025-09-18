@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+crm_sandbox.egg-info/PKG-INFO
+crm_sandbox.egg-info/SOURCES.txt
+crm_sandbox.egg-info/dependency_links.txt
+crm_sandbox.egg-info/requires.txt
+crm_sandbox.egg-info/top_level.txt

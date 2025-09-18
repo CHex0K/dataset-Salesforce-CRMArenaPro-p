@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+
+# Python cache & artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs & results
+logs/
+**/logs/
+results/
+**/results/
+*.log
+
+# Data exports
+*.jsonl
+*.csv
+*.db
+
+# Notebooks
+*.ipynb
+
+# IDE / system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local notes
+degfe.txt
+
+# Misc
+*.tmp
+*.bak
